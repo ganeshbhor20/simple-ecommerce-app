@@ -1,0 +1,63 @@
+React E-Commerce App
+This is a simple e-commerce app built with React, utilizing React Router for navigation. Users can browse products, add them to the cart, and place orders.
+
+Getting Started
+Follow the instructions below to set up and run the project on your local machine.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Prerequisites
+Make sure you have the following installed on your machine:
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Node.js: Download and Install Node.js
+Installation
+Clone the repository to your local machine:
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+IN CMD
+
+cd simple-ecommerce-app
+Install dependencies:
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+IN CMD
+
+npm install
+Running the App
+Start the development server:
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+IN CMD
+
+npm start
+Open your browser and go to http://localhost:3000 to view the app.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Project Structure
+The project structure is organized as follows:
+
+src/: Contains the source code for the React app.
+components/: React components used in the app.
+images/: Store images used in the app.
+App.js: Main component where the routes and main app logic are defined.
+App.css: Styles for the main app component.
+public/: Static assets and the HTML template.
+Features
+Browse products and add them to the cart.
+View the cart and place orders.
+Simple order placement with a popup showing order details.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Technologies Used
+React
+React Router
+Javascript
+HTML
+CSS

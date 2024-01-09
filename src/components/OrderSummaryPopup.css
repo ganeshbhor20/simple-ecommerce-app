@@ -1,0 +1,56 @@
+/* src/components/OrderSummaryPopup.css */
+.order-summary-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close-icon {
+  color: #005c99;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  color: #004c7e;
+}
+
+h2 {
+  text-align: center;
+  color: #005c99;
+}
+
+.summary-details {
+  margin-top: 20px;
+}
+
+.summary-details p {
+  margin-bottom: 10px;
+}
+
+.thank-you-message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #005c99;
+}

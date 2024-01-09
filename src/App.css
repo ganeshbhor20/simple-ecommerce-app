@@ -1,0 +1,57 @@
+/* src/App.css */
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column; 
+}
+
+.navigation {
+  height: 20%;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #d3d3d3;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+body {
+  
+  background-image: url('C:\Users\lenovo\simple-ecommerce-app\src\image.jpeg'); /* Update the path accordingly */
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

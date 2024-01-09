@@ -1,0 +1,48 @@
+/* src/components/OrderPage.css */
+.order-container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #aad8e6; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f5fcff; 
+  margin-top: 20px;
+}
+
+.order-heading {
+  text-align: center;
+  color: #005c99; 
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-label {
+  margin: 10px 0;
+  color: #005c99; 
+}
+
+.order-input {
+  padding: 10px;
+  border: 1px solid #aad8e6;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.order-btn {
+  background-color: #005c99; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.order-btn:hover {
+  background-color: #004c7e; 
+}
